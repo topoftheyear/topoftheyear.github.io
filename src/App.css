@@ -1,10 +1,49 @@
-.App {
-  text-align: center;
-  background-color: #3A4750;
-  color: #eeeeee;
-  height: auto;
+/* Palette */
+/* Dark Gray #303841 */
+/* Blue Gray #3a4750 */
+/* Teal #00adB5 */
+/* White #eeeeee */
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-footer {
-  background: #303841;
+body {
+  height: 95vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  align-content: center;
+  background-color: #3a4750;
+  color: #eeeeee;
+  font-size: 1.75vh;
+}
+
+.home, .projects, .games {
+  min-height: 90vh;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.projects, .games {
+  text-align: left;
+}
+
+footer {
+  background-color: #303841;
+  font-size: 2vh;
+  align-content: center;
+  padding: 10px;
+  min-height: 10%;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  color: #00adB5;
 }

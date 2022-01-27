@@ -9,23 +9,21 @@ import {
 class Navbar extends React.Component {
 	render() {
 		return (
-			<>
-				<Nav>
+			<Nav>
 				<Bars />
-			
+		
 				<NavMenu>
-					<NavLink to='/' activeStyle>
+					<NavLink to='/'>
 						Home
 					</NavLink>
-					<NavLink to='/projects' activeStyle>
+					<NavLink to='/projects'>
 						Projects
 					</NavLink>
-					<NavLink to='/games' activeStyle>
+					<NavLink to='/games'>
 						Games
 					</NavLink>
 				</NavMenu>
-				</Nav>
-			</>
+			</Nav>
 		);
 	}
 }

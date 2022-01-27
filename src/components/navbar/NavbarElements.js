@@ -9,6 +9,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
+  font-size 2vh;
 `;
   
 export const NavLink = styled(Link)`
@@ -18,7 +19,7 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  color: #00ADB5;
+  color: #00adB5;
   &.active {
     color: #EEEEEE;
   }
