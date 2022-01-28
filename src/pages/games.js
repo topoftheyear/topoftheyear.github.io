@@ -8,7 +8,7 @@ class Games extends React.Component {
 				<div className='project'>
 					<iframe
 						title='si-embed'
-						src='https://cdn.cloudflare.steamstatic.com/steam/apps/256852715/movie480_vp9.webm?t=1632510108'
+						src='https://cdn.cloudflare.steamstatic.com/steam/apps/256852715/movie480_vp9.webm?t=1632510108&autoplay=false'
 						height={window.innerHeight / 4}
 						width={window.innerWidth / 4}
 					></iframe>
