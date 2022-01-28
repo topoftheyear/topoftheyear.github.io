@@ -27,7 +27,7 @@ body {
 
 .home, .projects, .games {
   min-height: 90vh;
-  width: 60%;
+  width: 75%;
   padding: 10px;
   margin: 0 auto;
 }
@@ -46,13 +46,15 @@ footer {
 
 h1, h2, h3, h4, h5, h6, a {
   color: #00adB5;
+  text-align: center;
 }
 
 .project {
   text-align: justify;
+  margin-bottom: 100px;
 }
 
-iframe, video {
+iframe, video, img {
   float: right;
   margin-right: 0;
   margin-left: 2%;

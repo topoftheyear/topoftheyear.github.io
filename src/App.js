@@ -6,17 +6,19 @@ import Projects from './pages/projects'
 import Games from './pages/games'
 
 function App() {
+	var display = <BrowserRouter>
+						<Navbar />
+						<Routes>
+						<Route path='/' exact element={<Home />} />
+						<Route path='/projects' element={<Projects />} />
+						<Route path='/games' element={<Games />} />
+					</Routes>
+					</BrowserRouter>
+	
 	return (
 		<div className='App'>
 			<div className='content'>
-				<BrowserRouter>
-					<Navbar />
-					<Routes>
-					<Route path='/' exact element={<Home />} />
-					<Route path='/projects' element={<Projects />} />
-					<Route path='/games' element={<Games />} />
-				</Routes>
-				</BrowserRouter>
+				{display}
 			</div>
 			<footer className='App-footer'>
 				<div className='links'>
