@@ -18,7 +18,7 @@ class Projects extends React.Component {
 						width={emWidth}
 					/>
 					<ul>
-						<li>Systems: Python, Matplotlib, Numpy, Pandas, React</li>
+						<li>Systems: Python, JavaScript, Matplotlib, Numpy, Pandas, React</li>
 						<li>Role: Sole developer</li>
 						<li>Dev Time: 1 month</li>
 						<li>Made for fun</li>
