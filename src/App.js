@@ -41,13 +41,13 @@ class App extends React.Component {
 		return (
 			<div className='App'>
 				<header>
-					<div className='nav' onClick={() => this.changePage('Home')}>
+					<div className='nav' onClick={() => this.changePage('Home')} style={{cursor: 'pointer'}}>
 						<Button text='Home' active={this.state.page}/>
 					</div>
-					<div className='nav' onClick={() => this.changePage('Projects')}>
+					<div className='nav' onClick={() => this.changePage('Projects')} style={{cursor: 'pointer'}}>
 						<Button text='Projects' active={this.state.page}/>
 					</div>
-					<div className='nav' onClick={() => this.changePage('Games')}>
+					<div className='nav' onClick={() => this.changePage('Games')} style={{cursor: 'pointer'}}>
 						<Button text='Games' active={this.state.page}/>
 					</div>
 				</header>
@@ -67,7 +67,6 @@ class App extends React.Component {
 			</div>
 		);
 	}
-	
 }
 
 export default App;

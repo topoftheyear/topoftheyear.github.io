@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  height: 95vh;
+  height: 90vh;
 }
 
 * {
@@ -52,6 +52,7 @@ header, footer {
   align-content: center;
   padding: 10px;
   min-height: 10%;
+  color: #00adB5;
 }
 
 h1, h2, h3, h4, h5, h6, a {

@@ -4,7 +4,7 @@ import algredpng from '../content/algred.png'
 
 class Projects extends React.Component {
 	render() {
-		var emWidth = window.innerWidth / 4;
+		var emWidth = window.innerWidth / 3;
 		var emHeight = emWidth / 16 * 9;
 		
 		return (
@@ -75,7 +75,7 @@ class Projects extends React.Component {
 						young and older developers to make meaningful contributions, and being generic enough to allow multiple 
 						game types and styles. It also satisfies some non-functional conditions, the most important being that 
 						it's both reasonably secured and fast. To date, it is the most complex and feature complete software I 
-						have written.
+						have written. As such, I wrote approximately 70 pages of accompanying documentation, complete with examples.
 					</p>
 					<p>
 						Byte-le Royale has a website available <a href='https://royale.ndacm.org/'>here</a>.
