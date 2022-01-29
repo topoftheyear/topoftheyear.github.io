@@ -1,32 +1,73 @@
+import React from 'react';
+import { SocialIcon } from 'react-social-icons';
+
 import './App.css';
-import Navbar from './components/navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home'
 import Projects from './pages/projects'
 import Games from './pages/games'
+import Button from './components/Button'
 
-function App() {
-	var display = <BrowserRouter>
-						<Navbar />
-						<Routes>
-						<Route path='/' exact element={<Home />} />
-						<Route path='/projects' element={<Projects />} />
-						<Route path='/games' element={<Games />} />
-					</Routes>
-					</BrowserRouter>
+
+class App extends React.Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			page: 'Home',
+		};
+	}
+
+	changePage(text){
+		console.log('hi')
+		this.setState({
+			page: text,
+		});
+	}
 	
-	return (
-		<div className='App'>
-			<div className='content'>
-				{display}
-			</div>
-			<footer className='App-footer'>
-				<div className='links'>
+	render() {
+		var display = <Home />
+
+		if (this.state.page === 'Home') {
+			display = <Home />
+		} else if (this.state.page === 'Projects') {
+			display = <Projects />
+		} else if (this.state.page === 'Games') {
+			display = <Games />
+		}
+
+		var user = '345rconlin543';
+		var domain = '@gmail.com';
+
+		return (
+			<div className='App'>
+				<header>
+					<div className='nav' onClick={() => this.changePage('Home')}>
+						<Button text='Home' active={this.state.page}/>
+					</div>
+					<div className='nav' onClick={() => this.changePage('Projects')}>
+						<Button text='Projects' active={this.state.page}/>
+					</div>
+					<div className='nav' onClick={() => this.changePage('Games')}>
+						<Button text='Games' active={this.state.page}/>
+					</div>
+				</header>
+				<div className='content'>
+					{display}
 				</div>
-				Copyright © Riley Conlin 2022
-			</footer>
-		</div>
-	);
+				<footer className='App-footer'>
+					<div className='socials'>
+						<SocialIcon url='https://github.com/topoftheyear' />
+						<SocialIcon url='https://www.linkedin.com/in/riley-conlin-17959b194/' />
+						<SocialIcon url={'mailto:' + user + domain} />
+					</div>
+					<p>
+						Copyright © Riley Conlin 2022
+					</p>
+				</footer>
+			</div>
+		);
+	}
+	
 }
 
 export default App;

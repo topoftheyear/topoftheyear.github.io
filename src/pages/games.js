@@ -5,7 +5,7 @@ import disdisvid from '../content/disdis.mp4';
 
 class Games extends React.Component {
 	render() {
-		var emWidth = window.innerWidth / 4;
+		var emWidth = window.innerWidth / 3;
 		var emHeight = emWidth / 16 * 9;
 		
 		return (
