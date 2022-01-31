@@ -16,7 +16,7 @@ class Home extends React.Component {
 				<p>
 					Back at the university, I founded an AI programming competition called <a href='royale.ndacm.org'>Byte-le Royale</a> that
 					has been running for several years, initially with my leadership, and now proudly without me at all. This unique experience 
-					has stuck with me and it has shaped me into the developer I am today.
+					has stuck with me and it has helped shape me into the developer I am today.
 				</p>
 				<p>
 					Please browse my projects at your leisure, and thank you for your time.

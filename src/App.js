@@ -18,7 +18,6 @@ class App extends React.Component {
 	}
 
 	changePage(text){
-		console.log('hi')
 		this.setState({
 			page: text,
 		});
@@ -37,6 +36,8 @@ class App extends React.Component {
 
 		var user = '345rconlin543';
 		var domain = '@gmail.com';
+
+		document.title = 'RC Portfolio'
 
 		return (
 			<div className='App'>
