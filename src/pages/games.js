@@ -31,7 +31,7 @@ class Games extends React.Component {
 						levels, ultimately fighting a boss to proceed onward. It is self-published on Steam and itch.io.
 					</p>
 					<p>
-						The game has various systems that distinguish it from the crowd. Primary, this includes Artifacts. These are 
+						The game has various systems that distinguish it from the crowd. Primarily, this includes Artifacts. These are 
 						designed to change how a player's shot behaves, including how it travels, how it reacts when striking, and what 
 						it leaves on foes it strikes. This creates a mix-and-match system allowing for plenty of experimentation. 
 						Combined with the basic items, I believe it leads to plenty of emergent gameplay, and I enjoy hearing from 
@@ -113,7 +113,7 @@ class Games extends React.Component {
 					</p>
 					<p>
 						On this project, I led development with several core systems, including development of a new engine 
-						(see Byte-le Royale on the Projects page), visualizer structure, and the disaster and forecast 
+						(see Byte-le Royale on the Projects page), visualizer structure, scrimmage server, and the disaster and forecast 
 						generation system. On the latter, disasters had to be randomly generated to create an increasingly hostile 
 						world in a fair way. Furthermore, the odds that each disaster is going to happen on a given turn needed 
 						to be adequately obfuscated while still being predictable. This was accomplished by having upgradable 

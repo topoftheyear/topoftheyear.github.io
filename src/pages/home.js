@@ -10,7 +10,7 @@ class Home extends React.Component {
 					You can also find my pertinent contact information at the bottom of the page.
 				</p>
 				<p>
-					I'm an industrious software developer that strives to accomplish my goals, remain flexible, and exceeding standards. 
+					I'm an industrious software developer who strives to accomplish goals, remain flexible, and exceed standards. 
 					I enjoy experimentation, either with existing software and tools or in using new ones.
 				</p>
 				<p>
