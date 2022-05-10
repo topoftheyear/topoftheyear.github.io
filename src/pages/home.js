@@ -14,7 +14,7 @@ class Home extends React.Component {
 					I enjoy experimentation, either with existing software and tools or in using new ones.
 				</p>
 				<p>
-					Back at the university, I founded an AI programming competition called <a href='royale.ndacm.org'>Byte-le Royale</a> that
+					Back at the university, I founded an AI programming competition called <a href='https://royale.ndacm.org'>Byte-le Royale</a> that
 					has been running for several years, initially with my leadership, and now proudly without me at all. This unique experience 
 					has stuck with me and it has helped shape me into the developer I am today.
 				</p>
