@@ -9,7 +9,7 @@ class Projects extends React.Component {
 		
 		return (
 			<div className='projects'>
-				<h2>Algorithmic Redistricting (2022)</h2>
+				<h2>Algorithmic Redistricting (2022-2023)</h2>
 				<div className='project'>
 					<img 
 						src={algredpng} 
@@ -109,7 +109,7 @@ class Projects extends React.Component {
 					</p>
 				</div>
 				
-				<h2>Snowflake Classification (2019)</h2>
+				<h2>Snowflake Classification (2018-2019)</h2>
 				<div className='project'>
 					<ul>
 						<li>Systems: Python, Tensorflow, Numpy</li>

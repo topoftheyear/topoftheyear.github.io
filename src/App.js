@@ -62,7 +62,7 @@ class App extends React.Component {
 						<SocialIcon url={'mailto:' + user + domain} />
 					</div>
 					<p>
-						Copyright © Riley Conlin 2023
+						Copyright © Riley Conlin 2024
 					</p>
 				</footer>
 			</div>

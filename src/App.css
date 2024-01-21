@@ -23,9 +23,14 @@ html, body {
 
 .home, .projects, .games {
   min-height: 90vh;
-  width: 75%;
+  width: 70%;
   padding: 10px;
   margin: 0 auto;
+}
+
+.home {
+  width: 50%;
+  font-size: 2vh;
 }
 
 .projects, .games {
@@ -35,16 +40,28 @@ html, body {
 .nav {
   height: 100%;
   width: 10%;
+  border-left: 2px solid #3a4750;
+  border-right: 2px solid #3a4750;
+}
+
+.content {
+  padding-top: 60px;
+  padding-bottom: 5%;
 }
 
 header {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
+footer {
+  bottom: 0;
+}
+
 header, footer {
+  width: 100%;
+  position: fixed;
   background-color: #303841;
   font-size: 1.5vh;
   align-content: center;

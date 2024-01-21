@@ -1,7 +1,9 @@
 import React from 'react';
 
+import tmcngif from '../content/tmcn.gif';
 import ee1992gif from '../content/ee1992.gif';
 import disdisvid from '../content/disdis.mp4';
+import mspng from '../content/marketspace.png';
 
 class Games extends React.Component {
 	render() {
@@ -10,7 +12,39 @@ class Games extends React.Component {
 		
 		return (
 			<div className='games'>
-				<h2>Slayer's Inc. (2021)</h2>
+				<h2>Transmogrification (2023)</h2>
+					<img 
+						src={tmcngif} 
+						alt='tmcn-gif'
+						height={emHeight}
+						width={emWidth}
+					/>
+					<ul>
+						<li>Engine: Godot 4</li>
+						<li>Role: Near sole developer</li>
+						<li>Dev Time: 10 days</li>
+						<li>Made for the <a href='https://itch.io/jam/bigmode-2023'>Bigmode Game Jam 2023</a></li>
+					</ul>
+					<p>
+						Transmogrification is a top down action game developed in 10 days for the Bigmode Game Jam 2023. The player 
+						controls a wizard in a 1v1 duel against an AI-controlled wizard using only transmogrification; a school of 
+						magic that changes states a target's mode of being. The player can apply various modes to themselves or their 
+						opponent, creating a variety of effects along way, in order to conquer the opponent.
+					</p>
+					My Work:
+					<ul>
+						<li>Implemented state machine for player control</li>
+						<li>Create AI behavior tree for AI control</li>
+						<li>Most all art assets (a friend did the animations)</li>
+						<li>UI implementation</li>
+						<li>Shader implementation</li>
+						<li>Music and SFX</li>
+					</ul>
+					<p>
+						Transmogrification is available on <a href='https://topoftheyear.itch.io/transmogrification'>itch.io</a>.
+					</p>
+				
+				<h2>Slayers, Inc. (2021)</h2>
 				<div className='project'>
 					<video
 						muted
@@ -27,27 +61,20 @@ class Games extends React.Component {
 						<li>Made for Woogedy Games</li>
 					</ul>
 					<p>
-						Slayer's Inc. is a roguelike twin-stick shooter. The player fights off hordes of enemies in randomly assorted 
-						levels, ultimately fighting a boss to proceed onward. It is self-published on Steam and itch.io.
+						Slayers, Inc. is a roguelike twin-stick shooter. The player fights off hordes of enemies in randomly assorted 
+						levels to obtain items and Artifacts, ultimately fighting a boss to proceed onward. The player can modify their 
+						projectile behavior through a system called Artifacts which combine with each other, such as bouncing triple shot 
+						fire bullets, or rocket-powered thunder bullets that spawn more bullets on hit. It is self-published on Steam and 
+						itch.io.
 					</p>
+					My Work:
+					<ul>
+						<li>Designs for emergent gameplay, including Artifacts system</li>
+						<li>Auxilliary systems from realistic liquid behavior to fish</li>
+						<li>Music and SFX</li>
+					</ul>
 					<p>
-						The game has various systems that distinguish it from the crowd. Primarily, this includes Artifacts. These are 
-						designed to change how a player's shot behaves, including how it travels, how it reacts when striking, and what 
-						it leaves on foes it strikes. This creates a mix-and-match system allowing for plenty of experimentation. 
-						Combined with the basic items, I believe it leads to plenty of emergent gameplay, and I enjoy hearing from 
-						players that share their runs with different combinations.
-					</p>
-					<p>
-						I also created some auxillary systems that help the game feel alive. An example is the liquid system, which 
-						attempts to simulate a liquid settling into puddles from a top-down perspective. There are numerous liquids that 
-						interact with each other as well as with other elements as traditionally expected: oil will slow the entities 
-						inside it, fire is capable of lighting oil ablaze, oil on fire will dissipate faster, entities in burning oil 
-						are both slowed and lit on fire themselves, entities on fire can light other oil. This system allowed for making 
-						certain enemies more interesting as well. One boss was given 2 attacks: one that creates oil on the ground, and 
-						another that launches a fireball that could light it up.
-					</p>
-					<p>
-						Slayer's Inc. is available on <a href='https://store.steampowered.com/app/1570680/Slayers_Inc/'>Steam</a> and <a href='https://woogedygames.itch.io/slayers-inc'>itch.io</a>.
+						Slayers, Inc. is available on <a href='https://store.steampowered.com/app/1570680/Slayers_Inc/'>Steam</a> and <a href='https://woogedygames.itch.io/slayers-inc'>itch.io</a>.
 					</p>
 				</div>
 				
@@ -69,22 +96,16 @@ class Games extends React.Component {
 						Egregious Racing 1992 is an experimental arcade racing game. The player drives around an open map collecting 
 						coins and making ramps to get as many points as possible within the time limit.
 					</p>
+					My Work:
+					<ul>
+						<li>Recreated and optimized Voxel Space engine for use in Python</li>
+						<li>Fundamental player implementation</li>
+						<li>Passable driving physics</li>
+						<li>UI elements</li>
+					</ul>
 					<p>
-						One day I came across the old <a href='https://en.wikipedia.org/wiki/Voxel_Space'>Voxel Space engine</a>. It 
-						was a revolutionary 3D engine back in 1992 that was primarily used for flight sims. I was particularly 
-						interested in how simplistic the rendering algorithm is. It was stuck in my head until I decided to implement 
-						it myself in Python in about a day or so. I then spent the next month optimizing it to make it actually functional. 
-						Initial implementation ran at 0.4 FPS, but could run at 30+ FPS after intense optimizations.
-					</p>
-					<p>
-						I now had a working engine and could successfully render and fly around in maps, but I wanted to do something 
-						with it that it wasn't designed for just to really push its limits. I decided then to make a third person driving 
-						game because the ground was never really supposed to be interacted with. After implementing some physics, this is 
-						the end result.
-					</p>
-					<p>
-						The source code for the project is available <a href='https://github.com/topoftheyear/EgregiousRacing1992'>here</a>, 
-						and the latest release is available <a href='https://github.com/topoftheyear/EgregiousRacing1992/releases/latest'>here</a>.
+						The source code for the project is available <a href='https://github.com/topoftheyear/EgregiousRacing1992'>here</a>,
+						and can be downloaded from <a href="https://topoftheyear.itch.io/egregious-racing-1992">itch.io</a>.
 					</p>
 				</div>
 				
@@ -111,24 +132,49 @@ class Games extends React.Component {
 						They get to allocate the population towards city repairs, upgrades, and building construction, while 
 						trying to predict what disaster will come next.
 					</p>
-					<p>
-						On this project, I led development with several core systems, including development of a new engine 
-						(see Byte-le Royale on the Projects page), visualizer structure, scrimmage server, and the disaster and forecast 
-						generation system. On the latter, disasters had to be randomly generated to create an increasingly hostile 
-						world in a fair way. Furthermore, the odds that each disaster is going to happen on a given turn needed 
-						to be adequately obfuscated while still being predictable. This was accomplished by having upgradable 
-						sensors that obfuscate the real odds by decreasing amounts, with the real odds being an algorithm 
-						similar to compound interest that is based around distance from the next disaster.
-					</p>
-					<p>
-						A custom-made engine was used to ensure security, compatibility, and specific functionality.
-						The front-end visualization is done in Cocos2d, Python version.
-					</p>
+					My Work:
+					<ul>
+						<li>Built custom engine to for it and future Byte-le projects (still in use today)</li>
+						<li>Server for team registration, code submission, and auto-running team's code through the game</li>
+						<li>Developed skeleton for the Cocos2d frontend the game is visually displayed in</li>
+						<li>Gameplay design, disaster generation and strength algorithm comparable to compound interest</li>
+					</ul>
 					<p>
 						The source code for the project is available <a href='https://github.com/PixPanz/byte_le_royale_2020'>here</a>.
 					</p>
 				</div>
 				
+				<h2>Marketspace (2019)</h2>
+				<div className='project'>
+					<img 
+						src={mspng} 
+						alt='marketspace-png'
+						height={emHeight}
+						width={emWidth}
+					/>
+					<ul>
+						<li>Engine: Custom</li>
+						<li>Role: Developer, game designer</li>
+						<li>Dev Time: 1 year</li>
+						<li>Made for the <a href='https://ndacm.org/'>NDSU ACM Non-Profit Organization</a></li>
+					</ul>
+					<p>
+						Marketspace is an open-world space sim. As the second game made for the <a href='https://royale.ndacm.org/'>Byte-le Royale 
+						programming competition</a>, players control the game by coding an AI and competing against other players for the highest 
+						score. The player controls a ship in open space and are left to generate as much money as possible within the time limit.
+						All players act simultaneously in the same match with some AI ships. Players can mine resources, trade goods between stations,
+						destroy other ships, and collect bounties on pirates while upgrading their systems in ways to suit their playstyle.
+					</p>
+					My Work:
+					<ul>
+						<li>Designed and balanced functioning economy including consumption and production of resources</li>
+						<li>Created several types of AI to keep economy running and for players to act on</li>
+					</ul>
+					<p>
+						The source code for the project is available <a href='https://github.com/topoftheyear/Byte-le-Royale-2019'>here</a>.
+					</p>
+				</div>
+
 				<h2>Dungeon Delvers (2018)</h2>
 				<div className='project'>
 					<iframe
@@ -149,18 +195,11 @@ class Games extends React.Component {
 						score. The player gets to assemble a team of character to explore a randomly-generated dungeon of monsters
 						and traps, then command each character individually to use their respective skills.
 					</p>
-					<p>
-						During this project, I designed some gameplay systems, most important being the dungeon generation. 
-						During initial design, the team wanted to capture open exploration but not burden players with 
-						pathfinding, nor provide it for them. This was achieved by creating a linear group of rooms that 
-						constantly branch then immediately reconverge. Players also got to take a peek inside the next 
-						rooms to allow them to choose what they wanted to face when applicable. This gave all teams 
-						a similar experience while allowing their strategies to diverge.
-					</p>
-					<p>
-						A custom-made engine was used to ensure security, compatibility, and specific functionality.
-						The front-end visualization is done in Pygame.
-					</p>
+					My Work:
+					<ul>
+						<li>Dungeon design including layout, traps, monster types and behavior</li>
+						<li>Character and monster art assets</li>
+					</ul>
 					<p>
 						The source code for the project is available <a href='https://github.com/jghibiki/Byte-le-Royale-2018'>here</a>.
 					</p>
