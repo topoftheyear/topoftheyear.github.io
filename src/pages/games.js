@@ -26,10 +26,11 @@ class Games extends React.Component {
 						<li>Made for the <a href='https://itch.io/jam/bigmode-2023'>Bigmode Game Jam 2023</a></li>
 					</ul>
 					<p>
-						Transmogrification is a top down action game developed in 10 days for the Bigmode Game Jam 2023. The player 
-						controls a wizard in a 1v1 duel against an AI-controlled wizard using only transmogrification; a school of 
-						magic that changes states a target's mode of being. The player can apply various modes to themselves or their 
-						opponent, creating a variety of effects along way, in order to conquer the opponent.
+						Transmogrification is a top down action game developed in 10 days for the Bigmode Game Jam 2023 where it placed in the
+						top 33% out of 500 submissions. The player controls a wizard in a 1v1 duel against an AI-controlled wizard using 
+						only transmogrification; a school of magic that changes states a target's mode of being. The player can apply 
+						various modes to themselves or their opponent, creating a variety of effects along way, in order to conquer the 
+						opponent.
 					</p>
 					My Work:
 					<ul>
