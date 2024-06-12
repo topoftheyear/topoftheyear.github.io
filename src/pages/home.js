@@ -13,14 +13,14 @@ class Home extends React.Component {
 					You can also find my pertinent contact information at the bottom of the page.
 				</p>
 				<p>
-					I'm an industrious software developer who strives to accomplish goals, remain flexible, and exceed standards. 
+					I'm a software developer who strives to accomplish goals, remain flexible, and exceed standards. 
 					I enjoy experimentation, either with existing software and tools or in using new ones.
 					As a result I pick things up quickly, so I've never been stopped by not knowing a concept or technology going in.
 				</p>
 				<p>
 					Back at NDSU, I founded an AI programming competition called <a href='https://royale.ndacm.org'>Byte-le Royale</a> that
 					has been running since 2018, initially with my leadership, and now proudly without me at all. This unique experience 
-					has stuck with me and it has helped shape me into the developer I am today. Post-graduation, I have been working with Woogedy Games and solo.
+					has stuck with me and it has helped shape me into the developer I am today. Post-graduation, I have worked with a team, solo, and for Woogedy Games.
 				</p>
 				<p>
 					Please browse my projects at your leisure and thank you for your time.

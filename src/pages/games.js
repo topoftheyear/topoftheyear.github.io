@@ -12,6 +12,20 @@ class Games extends React.Component {
 		
 		return (
 			<div className='games'>
+				<h2>Ongoing Work</h2>
+					<p>
+						I've continued to hone my skills in various areas of development as unannounced projects advance. I've managed to
+						gain deeper knowledge of specific systems while also getting more general knowledge that can be transferred
+						between languages and engines.
+					</p>
+					<ul>
+						<li>AI Behavior trees</li>
+						<li>Procedural generation</li>
+						<li>State machines</li>
+						<li>Simple shaders</li>
+						<li>3 years Godot experience</li>
+						<li>Proper architecture and design with game programming patterns</li>
+					</ul>
 				<h2>Transmogrification (2023)</h2>
 					<img 
 						src={tmcngif} 
