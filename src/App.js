@@ -58,7 +58,6 @@ class App extends React.Component {
 				<footer className='App-footer'>
 					<div className='socials'>
 						<SocialIcon url='https://github.com/topoftheyear' />
-						<SocialIcon url='https://www.linkedin.com/in/riley-conlin-17959b194/' />
 						<SocialIcon url={'mailto:' + user + domain} />
 					</div>
 					<p>
@@ -69,5 +68,7 @@ class App extends React.Component {
 		);
 	}
 }
+
+<SocialIcon url='https://www.linkedin.com/in/riley-conlin-17959b194/' />
 
 export default App;
