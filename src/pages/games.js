@@ -4,10 +4,11 @@ import tmcngif from '../content/tmcn.gif';
 import ee1992gif from '../content/ee1992.gif';
 import disdisvid from '../content/disdis.mp4';
 import mspng from '../content/marketspace.png';
+import titanpng from '../content/titan.png';
 
 class Games extends React.Component {
 	render() {
-		var emWidth = window.innerWidth / 3;
+		var emWidth = window.innerWidth / 4;
 		var emHeight = emWidth / 16 * 9;
 		
 		return (
@@ -19,13 +20,63 @@ class Games extends React.Component {
 						between languages and engines.
 					</p>
 					<ul>
+						<li>4 years Godot experience</li>
 						<li>AI Behavior trees</li>
 						<li>Procedural generation</li>
 						<li>State machines</li>
-						<li>Simple shaders</li>
-						<li>3 years Godot experience</li>
 						<li>Proper architecture and design with game programming patterns</li>
 					</ul>
+				
+				<h2>Golgalian (2025)</h2>
+					<ul>
+						<li>Engine: Godot 4</li>
+						<li>Role: Programmer, designer</li>
+					</ul>
+					<p>
+						Golgalian is an endless micro shoot 'em up. The player controls the tank Golgalian through an endless level
+						fighting off tactically designed formations of mechs and drones capped off by a boss fight. It is self-published
+						on Steam.
+					</p>
+					My Work:
+					<ul>
+						<li>State machine controller for the player</li>
+						<li>AI behavior trees</li>
+						<li>Google firebase integration for the leaderboard</li>
+						<li>Music and SFX</li>
+					</ul>
+					<p>
+						Golgalian is available on <a href='https://store.steampowered.com/app/3593430/Golgalian/'>Steam</a>.
+					</p>
+
+				<h2>TITAN: Terraforming Initiative for Titan's Autonomous Nexus (2025)</h2>
+					<img
+						src={titanpng}
+						alt='titan-png'
+						height={emHeight}
+						width={emWidth}
+					/>
+					<ul>
+						<li>Engine: Godot 4</li>
+						<li>Role: Programmer, designer</li>
+						<li>Made for the <a href='https://itch.io/jam/bigmode-game-jam-2025'>Bigmode Game Jam 2025</a></li>
+					</ul>
+					<p>
+						TITAN is a city builder developed in 10 days for the Bigmode Game Jam 2025 where it placed in the top
+						25% out of 800 submissions. The player builds a colony on Titan with the goal of maximizing energy production, 
+						requiring balanced resource gathering and population management.
+					</p>
+					My Work:
+					<ul>
+						<li>Road system for employment</li>
+						<li>Dynamic power grids</li>
+						<li>It's an entire city builder made in 10 days</li>
+						<li>Optimization</li>
+						<li>Music and SFX</li>
+					</ul>
+					<p>
+						TITAN is available for free on <a href='https://topoftheyear.itch.io/titan'>itch.io</a>.
+					</p>
+
 				<h2>Transmogrification (2023)</h2>
 					<img 
 						src={tmcngif} 
@@ -35,24 +86,19 @@ class Games extends React.Component {
 					/>
 					<ul>
 						<li>Engine: Godot 4</li>
-						<li>Role: Near sole developer</li>
-						<li>Dev Time: 10 days</li>
+						<li>Role: (Almost) sole developer</li>
 						<li>Made for the <a href='https://itch.io/jam/bigmode-2023'>Bigmode Game Jam 2023</a></li>
 					</ul>
 					<p>
 						Transmogrification is a top down action game developed in 10 days for the Bigmode Game Jam 2023 where it placed in the
 						top 33% out of 500 submissions. The player controls a wizard in a 1v1 duel against an AI-controlled wizard using 
-						only transmogrification; a school of magic that changes states a target's mode of being. The player can apply 
-						various modes to themselves or their opponent, creating a variety of effects along way, in order to conquer the 
-						opponent.
+						only transmogrification; a school of magic that changes states a target's mode of being.
 					</p>
 					My Work:
 					<ul>
 						<li>Implemented state machine for player control</li>
 						<li>Create AI behavior tree for AI control</li>
-						<li>Most all art assets (a friend did the animations)</li>
 						<li>UI implementation</li>
-						<li>Shader implementation</li>
 						<li>Music and SFX</li>
 					</ul>
 					<p>
@@ -72,14 +118,11 @@ class Games extends React.Component {
 					<ul>
 						<li>Engine: GameMaker 1.4</li>
 						<li>Role: Background systems developer, game designer, composer</li>
-						<li>Dev Time: 2 years</li>
 						<li>Made for Woogedy Games</li>
 					</ul>
 					<p>
 						Slayers, Inc. is a roguelike twin-stick shooter. The player fights off hordes of enemies in randomly assorted 
-						levels to obtain items and Artifacts, ultimately fighting a boss to proceed onward. The player can modify their 
-						projectile behavior through a system called Artifacts which combine with each other, such as bouncing triple shot 
-						fire bullets, or rocket-powered thunder bullets that spawn more bullets on hit. It is self-published on Steam and 
+						levels to obtain items and Artifacts, ultimately fighting a boss to proceed onward. It is self-published on Steam and 
 						itch.io.
 					</p>
 					My Work:
@@ -104,7 +147,6 @@ class Games extends React.Component {
 					<ul>
 						<li>Engine: Pygame (Python, C++)</li>
 						<li>Role: Sole developer</li>
-						<li>Dev Time: 2 months</li>
 						<li>Made for fun</li>
 					</ul>
 					<p>
@@ -137,15 +179,13 @@ class Games extends React.Component {
 					<ul>
 						<li>Engine: Custom</li>
 						<li>Role: Lead developer, architect, game designer</li>
-						<li>Dev Time: 1 year</li>
 						<li>Made for the <a href='https://ndacm.org/'>NDSU ACM Non-Profit Organization</a></li>
 					</ul>
 					<p>
 						Disaster Dispatcher is a city-management simulator. As the last game I made for the <a href='https://royale.ndacm.org/'>Byte-le Royale 
 						programming competition</a>, players control the game by coding an AI and competing against other players 
-						for the highest score. The player is the mayor of a city that is under constant barrage of natural disasters.
-						They get to allocate the population towards city repairs, upgrades, and building construction, while 
-						trying to predict what disaster will come next.
+						for the highest score. The player allocations the population towards city repairs, upgrades, and contruction
+						while trying to predict what disaster will come next.
 					</p>
 					My Work:
 					<ul>
@@ -170,15 +210,12 @@ class Games extends React.Component {
 					<ul>
 						<li>Engine: Custom</li>
 						<li>Role: Developer, game designer</li>
-						<li>Dev Time: 1 year</li>
 						<li>Made for the <a href='https://ndacm.org/'>NDSU ACM Non-Profit Organization</a></li>
 					</ul>
 					<p>
 						Marketspace is an open-world space sim. As the second game made for the <a href='https://royale.ndacm.org/'>Byte-le Royale 
 						programming competition</a>, players control the game by coding an AI and competing against other players for the highest 
 						score. The player controls a ship in open space and are left to generate as much money as possible within the time limit.
-						All players act simultaneously in the same match with some AI ships. Players can mine resources, trade goods between stations,
-						destroy other ships, and collect bounties on pirates while upgrading their systems in ways to suit their playstyle.
 					</p>
 					My Work:
 					<ul>
@@ -201,7 +238,6 @@ class Games extends React.Component {
 					<ul>
 						<li>Engine: Custom</li>
 						<li>Role: Developer, game designer, artist</li>
-						<li>Dev Time: 1 year</li>
 						<li>Made for the <a href='https://ndacm.org/'>NDSU ACM Non-Profit Organization</a></li>
 					</ul>
 					<p>
